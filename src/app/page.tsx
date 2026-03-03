@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ContactModal from "@/components/ContactModal";
 
 function HeroSection() {
   return (
@@ -129,9 +130,7 @@ function CTASection() {
         <p className="text-zinc-300 text-lg mb-10 max-w-2xl mx-auto">
           Partner with BuyOneMedia to deploy intelligent architectures that scale your enterprise without scaling your overhead.
         </p>
-        <button className="px-10 py-5 rounded-full bg-gradient-to-r from-brand-blue via-brand-purple to-brand-pink text-white font-bold text-lg hover:shadow-[0_0_40px_rgba(213,0,249,0.4)] transition-all duration-300 transform hover:-translate-y-1">
-          Schedule Architecture Review
-        </button>
+        <ContactModal />
       </div>
     </section>
   );
